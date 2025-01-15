@@ -11,7 +11,7 @@ const dbConnection = async() => {
 
     } catch (error) {
         console.log(error);
-        throw new Error('Error al iniciar la conección a la B. de D.  ' + error );
+        // throw new Error('Error al iniciar la conección a la B. de D.  ' + error );
     }
 
 }
